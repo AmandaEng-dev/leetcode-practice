@@ -9,7 +9,7 @@ class Solution:
                 #if a finds b and adds them and it is the target, return answer
                 #if not, goes back top to iterate to the the next a value
                 if nums[i] + nums[j] == target:
-                    return [i,j];
+                    return [i,j]
                 
 
 
